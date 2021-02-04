@@ -44,8 +44,8 @@ h6 {
 
 .btn{
 	width: 60%;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:16px;
+	padding-bottom:16px;
   border-radius: 6px;
   text-decoration: none;
   border: none;
@@ -61,6 +61,8 @@ h6 {
     }
 		.btn{
 			width: 80%;
+			padding-top:16px;
+			padding-bottom:20px;
 		}
 		body {
 			padding-top: 10%;
