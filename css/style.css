@@ -62,4 +62,7 @@ h6 {
 		.btn{
 			width: 80%;
 		}
+		body {
+			padding-top: 10%;
+		}
 }
