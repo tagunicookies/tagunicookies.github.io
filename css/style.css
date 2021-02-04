@@ -44,12 +44,9 @@ h6 {
 
 .btn{
 	width: 60%;
-	padding-top:16px;
-	padding-bottom:16px;
   border-radius: 6px;
   text-decoration: none;
   border: none;
-  z-index: 1;
   transition: .3s ease;
   cursor: pointer;
 }
@@ -61,8 +58,6 @@ h6 {
     }
 		.btn{
 			width: 80%;
-			padding-top:16px;
-			padding-bottom:20px;
 		}
 		body {
 			padding-top: 10%;
