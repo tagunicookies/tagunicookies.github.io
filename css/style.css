@@ -1,44 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
 
 body {
-
+	padding-top: 15%;
 	color: #fff;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
 }
 
 h1,
@@ -86,15 +50,17 @@ h6 {
     height: auto;
   }
 
+i{
+	margin-right: 12px;
+}
 
 .button{
+	font-family: 'Crimson Text', serif;
   border-radius: 6px;
   margin: 4px;
   width: 100%;
   text-align: center;
   padding: 13px 15px 14px 13px;
-  background-color: var(--button-color);
-  color: var(--font-color);
   line-height: 1;
   text-decoration: none;
   border: none;
@@ -116,10 +82,5 @@ h6 {
 
     main h5 {
         font-size: 30px;
-    }
-
-    #form {
-        padding-right: 5%;
-        padding-left: 5%;
     }
 }
