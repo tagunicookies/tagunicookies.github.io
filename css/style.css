@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 body {
+	margin: 0;
 	padding-top: 3%;
 	color: #fff;
 }
@@ -20,12 +21,7 @@ h6 {
 	animation: shake-animation 4.72s ease infinite;
 	transform-origin: 50% 50%;
   }
-  .element {
-	margin: 0 auto;
-	width: 150px;
-	height: 150px;
-	background: red;
-  }
+
   @keyframes shake-animation {
 	 0% { transform:translate(0,0) }
 	1.78571% { transform:translate(5px,0) }
@@ -37,22 +33,14 @@ h6 {
 	100% { transform:translate(0,0) }
   }
 
-  .linktree {
-	  width: 120px;
-	  height: 120px;
-	  background-size: cover;
-	  background-repeat: no-repeat;
-	  background-position: 50% 50%;
-  }
-
   img{
   	width: 55%;
     height: auto;
   }
 
-i{
-	margin-right: 12px;
-}
+	i{
+		margin-right: 12px;
+	}
 
 .button{
 	font-family: 'Crimson Text', serif;
@@ -60,11 +48,11 @@ i{
   margin: 4px;
   width: 100%;
   text-align: center;
-  padding: 13px 15px 14px 13px;
+  padding: 12px 15px 15px 12px;
   line-height: 1;
   text-decoration: none;
   border: none;
-  z-index: 2;
+  z-index: 1;
   transition: .3s ease;
   cursor: pointer;
 }
